@@ -39,12 +39,12 @@ flexi -SERVERIP=192.168.1.4 -SERVERPORT=7777
 
 Linux command:</br>
 ```
-./flexi --REMOTES=10.147.20.144:7777 --LOCALIFIP=192.168.1.4 --LOCALPORT=7788
+./flexi --REMOTES=192.168.1.4:7777 --LOCALIFIP=10.147.20.144 --LOCALPORT=7788
 ```
 
 Windows command:</br>
 ```
-flexi -REMOTES=10.147.20.144:7777 -LOCALIFIP=192.168.1.4 -LOCALPORT=7788
+flexi -REMOTES=192.168.1.4:7777 -LOCALIFIP=10.147.20.144 -LOCALPORT=7788
 ```
 
 Hint: When the program is run for the first time, Windows will ask to for permission to add a firewall rule. Make sure to select your network (Public&Private as needed) to allow the tool to communicate!
